@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import Navbar from "./components/Navbar.jsx";
 import Conversations from "./pages/Conversations.jsx";
 import Thread from "./pages/Thread.jsx";
-import Login from "./pages/login.jsx";
+import Login from "./pages/Login.jsx";
 import Signup from "./pages/Signup.jsx";
 import Threads from "./pages/Thread.jsx";
 import Profile from "./pages/Profile"; // adjust the path
