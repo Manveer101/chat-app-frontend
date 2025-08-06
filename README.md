@@ -3,7 +3,7 @@
 
 This is the React frontend for the real-time Chat App built using React, Vite, and Tailwind CSS. It connects to a Django backend (using Django REST Framework and WebSockets via Django Channels).
 
-> 🚀 Live Demo (if deployed): [Click Here](https://your-frontend-url.vercel.app)pending.....
+> 🚀 Live Demo (if deployed): [Click Here](https://chat-app-frontend-coral-zeta.vercel.app/)
 
 ---
 
