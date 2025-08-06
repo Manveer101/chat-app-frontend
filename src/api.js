@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
- baseURL: import.meta.env.VITE_API_BASE_URL || "https://mychatapp-1-ooe6.onrender.com/api/",
+ baseURL: import.meta.env.VITE_API_BASE_URL || "https://r48hnsfc-8000.inc1.devtunnels.ms/api/",
 });
 
 api.interceptors.request.use((config) => {
