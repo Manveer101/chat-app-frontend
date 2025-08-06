@@ -37,7 +37,7 @@ export default function Thread() {
   const [busyId, setBusyId] = useState(null);
 
   // WS base
-  const wsBase = (import.meta.env.VITE_API_BASE_URL || "https://r48hnsfc-8000.inc1.devtunnels.ms/api/")
+  const wsBase = (import.meta.env.VITE_API_BASE_URL || "https://mychatapp-1-ooe6.onrender.com/api/")
     .replace(/\/api\/?$/, "")
     .replace(/^http/, "ws");
 

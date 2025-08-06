@@ -6,7 +6,7 @@ export default function useChatSocket({ otherUsername, onEvent }) {
   useEffect(() => {
     const token = localStorage.getItem("token"); // if you add token auth via query
     // Base from your API URL; replace http -> ws, https -> wss
-    const base = (import.meta.env.VITE_API_BASE_URL || "https://r48hnsfc-8000.inc1.devtunnels.ms/api/")
+    const base = (import.meta.env.VITE_API_BASE_URL || "https://mychatapp-1-ooe6.onrender.com/api/")
                   .replace(/\/api\/?$/, ""); // drop /api/
     const wsUrl = base.replace(/^http/, "ws") + `/ws/chat/${encodeURIComponent(otherUsername)}/`;
     const ws = new WebSocket(wsUrl); // If you add token middleware, append ?token=...
