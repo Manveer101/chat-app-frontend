@@ -7,7 +7,6 @@ import Signup from "./pages/Signup.jsx";
 import Threads from "./pages/Thread.jsx";
 import Profile from "./pages/Profile"; // adjust the path
 
-
 function Protected({ children }) {
   const token = localStorage.getItem("token");
   return token ? children : <Navigate to="/login" replace />;
